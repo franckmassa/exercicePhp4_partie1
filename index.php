@@ -3,7 +3,7 @@
 $ville = 'Compiègne';
 $numberInt = 10;
 $numberFloat = 5.5;
-$Boolean = true;
+$Bool = true;
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -13,8 +13,7 @@ $Boolean = true;
 </head>
 <body>
   <p>
-    <?php
-    echo $ville.'</br>'.$numberInt.'</br> '.$numberFloat.'</br>'.$Boolean;
+    <?= $ville .' '. $numberInt .' '. $numberFloat .' '. $Bool;
     ?>
   </p>
 </body>
